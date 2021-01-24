@@ -167,6 +167,117 @@ body {
   }
 }
 
+.intro-container {
+  margin-left: 20%;
+  margin-right: 20%;
+}
+.intro-section-home {
+  padding: 60px 0;  
+}
+
+.panel-primary {
+  background-color: #F4BC08;
+}
+
+.intro-header {
+  font-size: 25px;
+  color: #4a4a4a;
+}
+
+.intro-container p {
+  padding-bottom: 30px;
+}
+
+.intro-container a {
+  text-decoration: none ;
+}
+
+.marketing-section-header {
+  color: #444;
+}
+/* Marketing Section */
+@media screen and (min-width: 768px) {
+  .marketing-section-header {
+    font-size: 30px;
+  }
+}
+
+
+
+.check-icon {
+  display: inline-block;
+  border-radius: 50%;
+  padding: 10px;
+  background: #F4BC08;
+  color: white;
+  font-size: 30px;
+}
+
+.ticket-list-contianer {
+  width: 70%;
+  display: block;
+  margin: 0 auto;
+}
+.tick-list {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+
+.tick-list-item {
+  max-width: 250px;
+  display: flex;
+  flex-direction: column;
+  color: #444;
+}
+.tick-list ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.tick-list-holder li {
+  list-style: none;
+} 
+.tick-list-holder span {
+  font-size: 20px;
+  font-weight: 800;
+}
+
+.testimony-holder {
+  margin-top: 10%;
+  display: flex;
+  flex-direction: column;
+}
+
+.testimony {
+  text-align: center;
+  border-radius: 10px;
+  background: #F4F4F4;
+  margin-bottom: 20px;
+  padding: 65px 20px 30px;
+  flex: 1;
+  margin-top: 50px;
+  position: relative;
+  width: 50%;
+}
+
+.testimony-img{
+  width: 120px;
+  margin-top: -30%;
+}
+
+.testimony-name {
+  margin: 0;
+  color: #007BFF;
+  font-weight: 700;
+  font-style: italic;
+  font-size: 1.35rem;
+}
+
+
+
 
 
 /* Utils */
@@ -184,7 +295,9 @@ body {
 .mt-3 {
   margin-top: 30px;
 }
-
+.mt-4 {
+  margin-top: 30px;
+}
 
 .mb-1 {
   margin-bottom: 10px;
@@ -195,7 +308,60 @@ body {
 .mb-3 {
   margin-bottom: 30px;
 }
+.mb-4 {
+  margin-bottom: 40px;
+}
 
 .position-relative {
   position: relative !important;
+}
+
+.container {
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.uppercase {
+  text-transform: uppercase;
+}
+
+.btn {
+  display: inline-block;
+  font-family: 'NexaRustSans-Black';
+  font-size: 1.125rem;
+  padding: 10px;
+  white-space: normal;
+  line-height: 1.5;
+  border-radius: 0.25em;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.btn:hover {
+  color: #fff;
+  background-color: #056bd8;
+  border-color: #056bd8;  
+}
+
+.btn-primary {
+  color: #fff;
+  background-color: #007bff;
+  border-color: #007bff;
+  font-weight: 600;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.fw-600 {
+  font-weight: 600;
+}
+
+.text-white {
+  /* color: white; */
 }
