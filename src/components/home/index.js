@@ -7,6 +7,7 @@ import TestimonySection from './TestimonySection'
 import CompetitionSection from './CompetitionSection'
 import WorksHeaderSection from './WorksHeaderSection'
 import TimelineSection from './TimelineSection'
+import Footer from '../Footer'
 
 const Home = () => {
   return (
@@ -17,6 +18,7 @@ const Home = () => {
       <CompetitionSection />
       <WorksHeaderSection />
       <TimelineSection />
+      <Footer />
 
 
     </div>

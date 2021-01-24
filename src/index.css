@@ -385,6 +385,37 @@ body {
   position: relative;
 }
 
+.pageTitle {
+  font-size: 30px;
+  font-style: italic;
+}
+
+/* Footer Section */
+.footer-container {
+  background: #4a4a4a;
+  font-size: 20px;
+  color: rgb(240, 235, 235);
+}
+
+.footer-img {
+  height: 50px;
+}
+.footer-img-mid {
+  height: 100px;
+}
+
+.footer-container a {
+  margin-left: 10px;
+  color:  rgb(240, 235, 235);
+}
+
+
+.footer-container > div {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
 /* Utils */
 .mx-auto {
   display: block;
