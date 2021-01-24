@@ -409,6 +409,69 @@ body {
   color:  rgb(240, 235, 235);
 }
 
+/* Past writing bees */
+.past-writing-bee {
+  display: block;
+  width: 70%;
+  margin: 0 auto;
+}
+.past-writing-bee .heading {
+  color: grey;
+  font-size: 40px;
+}
+
+.img-cards{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.card {
+  margin-top: 20px;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  width: 300px;
+  border-radius: 5px;
+}
+
+.card-img-top {
+  width: 100%;
+  height: 15vw;
+  object-fit: cover;
+}
+
+.card  img {
+  min-width: 200px;
+  border-radius: 5px;
+
+}
+
+.card:hover {
+  cursor: pointer;
+  box-shadow: 0 12px 24px 0 rgba(0,0,0,0.2);
+}
+
+.card-container {
+  color: grey;
+  padding: 2px 16px;
+}
+
+.archive-title {
+  font-size: 18px;
+}
+.story-start {
+  font-size: 14px;
+}
+.archive-author {
+  color: #247aae;
+  font-weight: bold;
+  font-size: 24px;
+}
+
+/* Footer  */
+.footer-container {
+  padding-top: 40px;
+}
 
 .footer-container > div {
   display: flex;
@@ -498,8 +561,3 @@ body {
   font-weight: 600;
 }
 
-
-
-.text-white {
-  /* color: white; */
-}

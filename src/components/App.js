@@ -10,7 +10,9 @@ import {
 
 import Navbar from './Navbar';
 import Home from './home/index.js' 
+import Footer from './Footer'
 import Test from './Test'
+import PastWritingBee from './past-writing-bee'
 
 function App() {
   return (
@@ -18,12 +20,12 @@ function App() {
     <div>
       <Navbar />
       <Switch>
-        <Route path="/test" component={Test} />
-        <Route path="/" component={Home} />
+        <Route path="/past-writing-bees" component={PastWritingBee} />
+        <Route path="/" exact component={Home} />
       </Switch>
+      <Footer />
     </div>
   </Router>
-
 
   );
 }
