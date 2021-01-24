@@ -276,9 +276,69 @@ body {
   font-size: 1.35rem;
 }
 
+/* Competetion Section */
+.competetion-section{
+  padding: 30px 0px;
+}
+.panel-secondary {
+  background-color: #4A4A4A;
+  color: #ffffff;
+}
+.lead {
+  margin: 0 20%;
+  font-size: 20px;
+}
+.largeContainer > div > div {
+  width: 300px;
+}
+.largeContainer > div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+
+} 
+
+.largeContainer h3 {
+  font-size: 30px;
+}
+.competetion-section .heading {
+  font-size: 40px;
+  font-style: italic;
+}
+.competetion-section .lead {
+  font-size: 20px;
+
+}
 
 
+/* Works Header */
+.worksHeader {
+  padding: 30px 0;
+  background: rgba(0, 0, 0, .4);
+}
+.works-header-icon-container {
+  width: 100%; 
+  display: flex;
+  justify-content: center;
+}
+.worksBullet img {
+  width: 70px;
+}
+.works-header-icon-container > div {
+  display: flex;
+  margin: 0px 20px;
+}
 
+.worksHeader .heading {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.worksHeader .heading .heading{
+  font-style: italic;
+}
 
 /* Utils */
 .mx-auto {
@@ -361,6 +421,8 @@ body {
 .fw-600 {
   font-weight: 600;
 }
+
+
 
 .text-white {
   /* color: white; */
