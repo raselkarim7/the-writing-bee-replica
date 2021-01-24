@@ -340,6 +340,51 @@ body {
   font-style: italic;
 }
 
+/* Timeline Section */
+
+.timeline-section {
+  padding: 30px 20%;
+
+}
+
+.timeline-section .media{
+  margin: 0px 10px;
+  display: flex;
+  align-items: flex-start;
+}
+
+.timeline-section .media-body {
+  margin-left: 20px;
+}
+.timeline-section .media-body .handle{
+  font-size: 25px;
+}
+.timeline-section .media-body .handle ~ p{
+  font-size: 18px;
+}
+
+
+
+.timeline-section .media-body div {
+  border-bottom: 1px solid rgb(177, 172, 172);
+
+}
+
+.message-item {
+  margin-bottom: 25px;
+  margin-left: 40px;
+  position: relative;
+  color: #4a4a4a;
+}
+
+.message-item .message-inner {
+  background: #f2f2f2;
+  border: 1px solid #ddd;
+  border-radius: 0px;
+  padding: 20px;
+  position: relative;
+}
+
 /* Utils */
 .mx-auto {
   display: block;

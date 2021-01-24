@@ -9,7 +9,7 @@ import {
 } from "react-router-dom";
 
 import Navbar from './Navbar';
-import Home from './Home' 
+import Home from './home/index.js' 
 import Test from './Test'
 
 function App() {
