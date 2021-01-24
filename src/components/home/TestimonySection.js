@@ -5,7 +5,7 @@ import WilsonImg from "../../assets/wilson.jpg";
 
 const TestimonySection = () => {
   return (
-    <section className="testimony-section-home panel-tertiary marketing-panel">
+    <section className="testimony-section-home panel-tertiary marketing-panel" style={{background: 'white', paddingBottom: '30px'}}>
     <div className="container">
       <div className="tick-list-holder text-center mb-4">
         <h4 className="marketing-section-header text-center">
