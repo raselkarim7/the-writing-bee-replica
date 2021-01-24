@@ -7,3 +7,195 @@ body {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
 }
 
+
+
+/* Navbar */
+.topnav{
+  overflow: hidden;
+  background-color: #f8f9fa;
+  display: flex;
+  justify-content: space-between;
+  align-items: center ;
+}
+
+.topnav div:first-child a:not(:first-child) {
+  margin-top: 10px;
+}
+
+.topnav a {
+  float: left;
+  display: block;
+  color: #4a4a4a;
+  text-align: center;
+  padding: 10px 16px;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.topnav a:hover {
+  color: black;
+}
+
+.topnav a.active {
+  background-color: #f8f9fa;
+  color: white;
+}
+
+.topnav .icon {
+  display: none;
+  padding: 5px 10px;
+  border: 1px solid rgb(231, 231, 231);
+  cursor: pointer;
+  font-size: 20px;
+}
+
+@media screen and (max-width: 600px) {
+  .topnav a:not(:first-child) {display: none;}
+  .topnav div.icon {
+    float: right;
+    display: block;
+    margin-right: 20px;
+
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .topnav.responsive {position: relative;}
+  .topnav.responsive .icon {
+    position: absolute;
+    right: 0;
+    top: 18px;
+  }
+  .topnav.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+  .topnav div:first-child a:not(:first-child) {
+    margin-top: 0px;
+  }
+}
+
+
+/* Home Section */
+
+
+#home-info {
+  padding: 0;
+  background: url('./assets/home-bg-one.jpg') repeat center;
+  background-attachment: fixed;
+  background-size: 1024px;
+  position: relative;
+}
+
+
+
+.hero-container {
+  text-align: center;
+  background: rgba(0, 0, 0, .7);
+
+  /* margin-right: auto;
+  margin-left: auto;
+  padding-right: 15px;
+  padding-left: 15px;
+  width: 100%;
+  text-align: center;
+  position: relative;
+  z-index: 1; */
+}
+
+.hero-scroll {
+  background: url("./assets/hero-scroll.png") no-repeat center;
+  background-size: contain;
+  font-size: 16px;
+  padding: 10px 7px 8px;
+  text-shadow: 0px 0px 0 #F4BC08;
+  -webkit-text-stroke: 0px #4A4A4A;
+  color: #4A4A4A;
+  display: inline-block;
+  font-weight: 1;
+}
+
+.hero-heading  {
+  margin: 0 auto!important;
+}
+
+.hero-heading-link{
+  text-decoration: none;
+  
+}
+
+.hero-heading-link {
+  font-size: 70px;
+  color: #ffffff;
+  -webkit-text-stroke: 1px #4A4A4A;
+  text-shadow: 2px 2px 0 #F4BC08, 0px 0px 0 #F4BC08, 0px 0px 0 #F4BC08, 0px 0px 0 #F4BC08, 0px 0px 0 #F4BC08;
+}
+
+
+.hero-subheading {
+  font-size: 30px;
+  text-transform: uppercase;
+  color: #fff;
+}
+
+.hero-bw-logo {
+  max-width: 210px
+}
+
+.hero-img {
+  width: 100%;
+}
+
+.hero-triangle {
+  display: block;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  max-width: 150px;
+}
+
+.img {
+  vertical-align: middle;
+  border-style: none;
+}
+
+@media screen and (min-width: 768px) {
+  .hero-bw-logo {
+    max-width: 315px;
+  }
+}
+
+
+
+/* Utils */
+.mx-auto {
+  display: block;
+  margin: auto;
+}
+
+.mt-1 {
+  margin-top: 10px;
+}
+.mt-2 {
+  margin-top: 20px;
+}
+.mt-3 {
+  margin-top: 30px;
+}
+
+
+.mb-1 {
+  margin-bottom: 10px;
+}
+.mb-2 {
+  margin-bottom: 20px;
+}
+.mb-3 {
+  margin-bottom: 30px;
+}
+
+.position-relative {
+  position: relative !important;
+}
